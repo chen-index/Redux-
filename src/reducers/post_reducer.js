@@ -1,4 +1,4 @@
-const postReducer = (state = { list: [{ title: 'hello' }] }, action) => {
+const postReducer = (state = { list: [{ id: 1, title: 'hello' }] }, action) => {
   switch (action.type) {
     case 'LOAD_POSTS':
       return {
